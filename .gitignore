@@ -1,5 +1,6 @@
 # local ide settings
-.vscode
+.vscode/settings.json
 
 # don't commit pyc files
 *.pyc
+__pycache__
