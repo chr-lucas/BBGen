@@ -11,6 +11,15 @@ The name generator comes packaged as a zip file containing BBGen.exe and a suppo
 
 Once it loads, simply click the button for each species to get a randomly generated name following their basic naming conventions or click on quit to close the generator.
 
+### Linux install
+If running on linux you may need to install the required packages `python3-tk` package for your OS and the associated `PySimpleGUI` for python3
+
+for Ubuntu run this scriptpysimplegui
+```bash
+    sudo apt install python3-tk -y
+    pip install PySimpleGUI
+```
+
 ## Customizing the Lists
 To support Homebrew and House Rules, the name lists can be added to and modified by finding the associated .txt files in the Data\SpeciesNames directory.
 
