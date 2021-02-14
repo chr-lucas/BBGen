@@ -1,2 +1,5 @@
-settings.json
+# local ide settings
+.vscode
+
+# don't commit pyc files
 *.pyc
