@@ -1,6 +1,8 @@
+#!/usr/bin/env python3
+
 import PySimpleGUI as sg
 
-from Data.Scripts.namelist import NameGen
+from lib.name_list import NameGen
 
 name = NameGen()
 
