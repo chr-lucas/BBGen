@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import PySimpleGUI as sg
 
 from lib.name_list import NameGen
@@ -8,8 +6,8 @@ name = NameGen()
 
 # Define the window's contents
 layout = [
-    [sg.Text("What species is your character?")],
-    [sg.Text(size=(40, 2), key="-OUTPUT-")],
+    [sg.Text("What species is your character?",font=("Calibri",18))],
+    [sg.Text(font=("Calibri",14),size=(40, 2), key="-OUTPUT-")],
     [
         sg.Button("Driftling"),
         sg.Button("Glean"),
@@ -25,7 +23,7 @@ layout = [
 ]
 
 # Create the window
-window = sg.Window("Chris's Burn Bryte Name Generator v1.0", layout, background_color="")
+window = sg.Window("Chris's Burn Bryte Name Generator v1.1", layout, background_color="")
 
 # Display and interact with the Window using an Event Loop
 while True:
